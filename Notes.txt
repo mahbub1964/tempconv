@@ -1,0 +1,42 @@
+Publish a Composer package to Packagist
+2/11/2014
+  # 
+  C:tempconv> 
+  C:tempconv> git add .
+  # Move the TemperatureConverter.php file into the src directory.
+  Confirm generation: yes
+  {
+    "name": "mahbub1964/tempconv",
+    "description": "A dead simple temperature converter. Converts from C to F and vice-versa.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Mahbub1964\\Tempconv\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Syed Mahbubur Rahman",
+        "email": "mahbubur.rahman.64@gmail.com"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+  }
+  PSR-4 autoload mapping: src/
+  Dev dependencies: n
+  Dependencies: n
+  License: MIT
+  Package Type: library
+  Minimum Stability: stable
+  Author: Syed Mahbubur Rahman <mahbubur.rahman.64@gmail.com>
+  Description: A dead simple temperature converter. Converts from C to F and vice-versa.
+  Package name: mahbub1964/tempconv
+  C:tempconv> composer init
+  # Generate a composer.json package file using:
+  # Add a file named TemperatureConverter.php with namespace Mahbub1964\Tempconv
+  # Composer template, add an MIT License and Clone the repository
+  # Create a project repository in GitHub, add a .gitignore choosing the
+  # How to create your own Composer package - https://kinsta.com/blog/create-composer-package/
+Mahbub1964\Tempconv

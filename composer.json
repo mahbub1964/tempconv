@@ -1,0 +1,19 @@
+{
+    "name": "mahbub1964/tempconv",
+    "description": "A dead simple temperature converter. Converts from C to F and vice-versa.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mahbub1964\\Tempconv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Syed Mahbubur Rahman",
+            "email": "mahbubur.rahman.64@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
