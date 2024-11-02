@@ -1,0 +1,53 @@
+Publish a Composer package to Packagist
+2/11/2014
+  # that describes your package and its dependencies.
+  # Submit the GitHub repository containing the composer.json file
+  # Click Authorize to grant Packagist permission to access your account.
+  # select GitHub as the login method to use your GitHub account for authentication.
+  # Navigate to the Packagist website - https://packagist.org/, click Login and
+  # The library is now ready to be published as a composer package on Packagist.
+  # Click Publish release to create the release.
+  # Description: This is the initial release for the Temperature Converter library!
+  # Release title: Initial release, tag version: v1.0.0,
+  # On the Releases page, click Create a new release:
+  # Navigate to repo on GitHub, and click Releases beneath the About section:
+  C:tempconv> git push
+  C:tempconv> git commit -m "Initial Release"
+  C:tempconv> git add .
+  # Move the TemperatureConverter.php file into the src directory.
+  Confirm generation: yes
+  {
+    "name": "mahbub1964/tempconv",
+    "description": "A dead simple temperature converter. Converts from C to F and vice-versa.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Mahbub1964\\Tempconv\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Syed Mahbubur Rahman",
+        "email": "mahbubur.rahman.64@gmail.com"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+  }
+  PSR-4 autoload mapping: src/
+  Dev dependencies: n
+  Dependencies: n
+  License: MIT
+  Package Type: library
+  Minimum Stability: stable
+  Author: Syed Mahbubur Rahman <mahbubur.rahman.64@gmail.com>
+  Description: A dead simple temperature converter. Converts from C to F and vice-versa.
+  Package name: mahbub1964/tempconv
+  C:tempconv> composer init
+  # Generate a composer.json package file using:
+  # Add a file named TemperatureConverter.php with namespace Mahbub1964\Tempconv
+  # Composer template, add an MIT License and Clone the repository
+  # Create a project repository in GitHub, add a .gitignore choosing the
+  # How to create your own Composer package - https://kinsta.com/blog/create-composer-package/
+Mahbub1964\Tempconv
