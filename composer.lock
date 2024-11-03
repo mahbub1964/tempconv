@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e78360dd85d99c8cabbf4c7fc9c50582",
+    "packages": [
+        {
+            "name": "mahbub1964/tempconv",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mahbub1964/tempconv.git",
+                "reference": "b5d4aca97fd4d98205586c7c09f33aa5652333a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mahbub1964/tempconv/zipball/b5d4aca97fd4d98205586c7c09f33aa5652333a3",
+                "reference": "b5d4aca97fd4d98205586c7c09f33aa5652333a3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mahbub1964\\Tempconv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Syed Mahbubur Rahman",
+                    "email": "mahbubur.rahman.64@gmail.com"
+                }
+            ],
+            "description": "A dead simple temperature converter. Converts from C to F and vice-versa.",
+            "support": {
+                "issues": "https://github.com/mahbub1964/tempconv/issues",
+                "source": "https://github.com/mahbub1964/tempconv/tree/v1.0.0"
+            },
+            "time": "2024-11-02T09:48:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,4 +1,14 @@
 Publish a Composer package to Packagist
+3/11/2014
+  C:tempconv> php demo.php
+  # use Mahbub1964\Tempconv\TemperatureConverter;
+  # require_once './vendor/autoload.php';
+  # Create a demo.php file to work with the library
+  C:tempconv> composer require mahbub1964/tempconv
+  # Remove src/ folder and the LICENSE file
+  C:tempconv> git branch demo, git switch demo
+Demo
+
 2/11/2014
   # that describes your package and its dependencies.
   # Submit the GitHub repository containing the composer.json file
